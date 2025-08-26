@@ -76,7 +76,7 @@ function initializePage() {
 
     buf += '    <section class="section" id="section-1">';
     buf += '    <div class="question"><span id="focus-word">Vital Functions Activity Survey</span></div>';
-    buf += '    <div class="question">Swipe Right to add the activity to your list, swipe down to move to the next activity</div>';
+    buf += '    <div class="question">Swipe Right to Add, Down for next</div>';
    buf += '    <div class="answer" id="answer-0"></div>';
 /*
     for (i=0; i<allSurveys.length; i++) 
