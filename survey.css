@@ -1,0 +1,280 @@
+main {
+  height: 100vh;
+  overflow-y: auto;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#5e5e5e;
+  height: 1px;
+}
+
+a:link {
+  color: #068ab2;
+  text-decoration: underline;
+}
+
+button {
+  color: #ffffffd4;
+  background-color: #3656889b;
+  font-family: Nunito, sans-serif;
+  font-size: 3em;
+  text-align: center;
+/*  font-weight: bold; */
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 50%;               
+}
+
+.section {
+  height: 100vh;
+  display: flex; 
+  flex-direction: column;
+/*  justify-content: center; */
+  align-items: center;
+  padding-top: 25%;
+  scroll-snap-align: start;
+  background-color: #000000;
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.answer-section {
+  height: 100vh;
+  display: flex; 
+  flex-direction: column;
+/*  justify-content: center; */
+  align-items: center;
+  padding-top: 15%;
+  scroll-snap-align: start;
+  background-color: #000000;
+}
+
+
+
+.question {
+  color: #ffffff;
+  font-family: Nunito, sans-serif;
+  font-size: 3em;
+  width: 90%; /* Full-width */
+  text-align: center;
+}
+
+.insight {
+  color: #cac6f6;
+  font-family: Nunito, sans-serif;
+  font-size: 1em;
+  width: 90%; /* Full-width */
+  text-align: center;
+}
+
+.explain {
+  color: #94f0fc;
+  font-family: Nunito, sans-serif;
+  font-size: 0.5em;
+  width: 90%; /* Full-width */
+  text-align: center;
+}
+
+.answer-heading {
+  color: #a39cf0;
+  font-family: Nunito, sans-serif;
+  font-size: 3em;
+  width: 90%; /* Full-width */
+  text-align: center;
+}
+
+.hypno-awake {
+  color: #F2F4F6;
+}
+.hypno-rem {
+  color: #6ECCFF;
+}
+.hypno-light {
+  color: #458EC3;
+}
+.hypno-deep {
+  color: #27487C;
+}
+.hypno-none {
+  color: #7e7e7eb8;
+}
+
+.answer-subheading {
+  color: #ffffff;
+  font-family: Nunito, sans-serif;
+  font-size: 1em;
+  width: 80%; /* Full-width */
+ /* text-align: center; */
+}
+
+.sleep-key {
+  color: #afb3bd;
+  font-family: Nunito, sans-serif;
+  font-size: 1.5em;
+  width: 90%; /* Full-width */
+  text-align: center;
+}
+
+.diagnosis {
+  color: #ffffff;
+  font-family: Nunito, sans-serif;
+  font-size: 1.0em;
+  width: 80%; /* Full-width */
+  text-align: left;
+}
+
+.diagnosis-heading {
+  color: #6fdcea;
+  font-family: Nunito, sans-serif;
+  font-size: 1.5em;
+  width: 100%; /* Full-width */
+  text-align: center;
+}
+
+.diagnosis-emphasis {
+  color: #fa4626db;
+}
+
+
+.hypno-container {
+  color: #ffffff;
+  font-family: Nunito, sans-serif;
+  font-size: 1.0em;
+
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  background-color: #000000;
+}
+
+.sleep-record-container {
+  width: 100%;
+  background-color: #000000;
+}
+
+.solutions-body {
+  color: #ffffff;
+  font-family: Nunito, sans-serif;
+  font-size: 1.0em;
+  width: 80%; /* Full-width */
+  text-align: left;
+  align-items: center;
+}
+
+.solutions-image {
+  width: 100%; /* Full-width */
+  text-align: center;
+}
+
+.solutions-heading {
+  color: #eab16f;
+  font-family: Nunito, sans-serif;
+  font-size: 1.5em;
+  width: 100%; /* Full-width */
+  text-align: center;
+} 
+
+.solutions-rationale {
+  color: #6fdcea;
+  font-family: Nunito, sans-serif;
+  font-size: 1em;
+  width: 100%; /* Full-width */
+  text-align: center;
+}
+
+.answer {
+  color: #eab16f;
+  font-family: Nunito, sans-serif;
+  font-size: 3em;
+  width: 90%; /* Full-width */
+  text-align: center;
+  padding-bottom: 1em;
+  font-weight: bold;
+
+}
+
+#focus-word {
+  color: #5cd5eb;
+
+}
+
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Slider SHIT */
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 80%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  border-radius: 100%;
+  margin-top: 0rem; /* Centers thumb on the track */
+  background-color: #5cd5eb;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.slider::-webkit-slider-thumb-disabled {
+  display: none; /* Don't display until user touches range bar */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+datalist {
+  display: inline-block;
+  margin-top: .5rem; 
+  text-align: center; 
+  color: white;
+  font-family: Nunito, sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between; 
+  width: 80%;
+}
