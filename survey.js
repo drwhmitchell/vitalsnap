@@ -30,9 +30,9 @@ const allSurveys = [
                     {name: "Tik-Tok", computeFcn: defaultComputeFcn, survey: [         
                         {question: "Walking", focus:"AGE", imageMode: DYNAMIC, backImage: "walking.gif", min: 10, max:100, default:50, answer:50, validator: dummyValidator, warpFcn: dummyWarpFcn},
                         {question: "Running", focus:"IN-BED/ ASLEEP", imageMode: DYNAMIC, backImage: "running.gif", min: 0, max:12, default:10, answer:10, validator: dummyValidator, warpFcn: dummyWarpFcn},
-                        {question: "When did you WAKE/GETUP?", focus:"WAKE/GETUP", imageMode: DYNAMIC, backImage: "wakeup-anim.gif", min: 0, max:12, default:6, answer:6, validator: dummyValidator, warpFcn: dummyWarpFcn},
-                        {question: "How often were you AWOKEN?", focus:"AWOKEN", imageMode: DYNAMIC, backImage: "awoken-anim.gif", min: 0, max:10, default:5, answer:5, validator: dummyValidator, warpFcn: dummyWarpFcn},
-                        {question: "How long did you STAY AWAKE?", focus:"STAY AWAKE", imageMode: DYNAMIC, backImage: "waso-anim.gif", min: 0, max:10, default:7, answer:7, validator: dummyValidator, warpFcn: dummyWarpFcn},
+                        {question: "When did you WAKE/GETUP?", focus:"WAKE/GETUP", imageMode: DYNAMIC, backImage: "dancing.gif", min: 0, max:12, default:6, answer:6, validator: dummyValidator, warpFcn: dummyWarpFcn},
+                        {question: "How often were you AWOKEN?", focus:"AWOKEN", imageMode: DYNAMIC, backImage: "cycling.gif", min: 0, max:10, default:5, answer:5, validator: dummyValidator, warpFcn: dummyWarpFcn},
+                        {question: "How long did you STAY AWAKE?", focus:"STAY AWAKE", imageMode: DYNAMIC, backImage: "golf.gif", min: 0, max:10, default:7, answer:7, validator: dummyValidator, warpFcn: dummyWarpFcn},
                         {question: "How much did you DREAM?", focus:"DREAM", imageMode: DYNAMIC, backImage: "dreams-anim.gif", min: 0, max:10, default:5, answer:5, validator: dummyValidator, warpFcn: dummyWarpFcn},
                         {question: "How do your MUSCLES FEEL?", focus:"MUSCLES FEEL", imageMode: DYNAMIC, backImage: "muscles-anim.gif", min: 0, max:10, default:5, answer:5, validator: dummyValidator, warpFcn: dummyWarpFcn},
                         {question: "How positive is your MOOD?", focus:"MOOD", imageMode: DYNAMIC, backImage: "mood-anim.gif", min: 0, max:10, default:5, answer:5, validator: dummyValidator, warpFcn: dummyWarpFcn},
